@@ -47,6 +47,15 @@ export default function App(props) {
                 obj.id= keyString;
                 return obj;
             })
+            changedEvents.sort(function(obj1, obj2){
+                if (obj1.date < obj2.date){
+                    return 1;
+                }
+                if (obj1.date > obj2.date){
+                    return -1;
+                }
+                return 0;
+            });
             setPostData(changedEvents);
         })
     },[]);

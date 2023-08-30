@@ -18,7 +18,7 @@ export default function SignInPage(props) {
 
   return (
     <div className="react-body">
-        <h2 className="text-center mt-5 mb-4">浪浪山欢迎您！</h2>
+        <h2 className="text-center mt-5 mb-4">Galaxea四号机欢迎您！</h2>
         <div className="container">
             <StyledFirebaseAuth firebaseAuth={auth} uiConfig={uiConfigObj} />
         </div>
