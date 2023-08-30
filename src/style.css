@@ -1,0 +1,151 @@
+html, body, #root {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* turn into flex box */
+.the-app {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* flex grow to keep body height */
+.react-body {
+    flex-grow: 1;
+    min-height: 80vh;
+}
+
+/* footer  */
+footer {
+    height:144px;
+    background-image: url('../public/img/footersmaller.png');
+}
+
+footer a, footer {
+    color: white;
+    /* text-shadow:  1px 1px 2px rgb(234, 234, 153); */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: .8em;
+}
+
+.contacts {
+    padding: 2em;
+}
+
+/* card style */
+.card {
+    border: none;
+    box-shadow: 2px 2px 5px rgb(17, 17, 112), 2px 2px 5px rgba(0, 0, 0, .16);
+}
+
+.card-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-col .card {
+    flex: 1;
+}
+
+.card-body button {
+    flex: 1;
+    position: relative;
+}
+
+.card-body h2 {
+    font-weight: bold;
+}
+
+.card .card:hover {
+    background-color: rgb(63, 59, 165);
+    color: white;
+}
+
+.event-title, .event p {
+    font-family:'Fuzzy Bubbles', cursive;
+    font-weight: bold;
+    padding-left: 0.5rem;
+    padding-bottom: 0.6rem;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.event-img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: .5em;
+    margin-top: .5em;
+    width: 90%;
+}
+
+.event-img {
+    margin-bottom: .5em;
+    margin-top: .5em;
+    margin-left: 1%;
+    width: 32%;
+}
+
+/* navbar */
+.nav-item:hover {
+    border-bottom: 2px solid black;
+}
+
+nav {
+    background-image: url('../public/img/navsmaller.png');
+    font-weight: bold;
+    height: 128px;
+}
+
+.navicon {
+    height:100px;
+    width:100px;
+    min-width: 100px;
+}
+
+.app-logo {
+    display: block;
+}
+
+.navtext{
+    margin-top: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: .4em;
+    font-size: 20px;
+    color: black;
+}
+
+.navtext i {
+    font-size: 1.5em;
+}
+
+/* profile */
+img.avatar {
+    border-radius: 50%;
+}
+
+/* form */
+label, .btn, h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.input-group button {
+    max-width: 50px;
+}
+
+.required-field::after {
+    content: "*";
+    color: red;
+}
+
+.personal-term {
+    margin-bottom: .5em;
+}
+
+p {
+    white-space: pre-wrap;
+}
