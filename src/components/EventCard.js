@@ -18,7 +18,7 @@ export default function EventCard(props) {
             <div className='card my-3 rounded-0 event-card'>
                 <div className='card-body event'>
                     <h2 className='event-title'>{titleCase(evtObj.title)}</h2>
-                    {/* <p className='event-author'>{evtObj.author}</p> */}
+                    <p className='event-author'>{evtObj.author}</p>
                     <p className='event-date'>{evtObj.date}</p>
                     <img className='event-img1' alt='post' src={evtObj.imageUrl || './img/otterlarger.png'}></img>
                     <p className='event-detail'>{evtObj.detail}</p>
@@ -82,7 +82,7 @@ export default function EventCard(props) {
             <div className='card my-3 rounded-0 event-card'>
                 <div className='card-body event row'>
                     <h2 className='event-title'>{titleCase(evtObj.title)}</h2>
-                    {/* <p className='event-author'>{evtObj.author}</p> */}
+                    <p className='event-author'>{evtObj.author}</p>
                     <p className='event-date'>{evtObj.date}</p>
                     <p className='event-detail'>{evtObj.detail}</p>
                 </div>

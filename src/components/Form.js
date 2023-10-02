@@ -228,16 +228,16 @@ export default function Form(props) {
         <div className="col-xl-8">
             <form className="row g-3" onSubmit={handleSubmit}>
                 
-                <div className="col-12">
+                <div className="col-9">
                     <label htmlFor="event-input" className="form-label required-field">标题：</label>
                     <input type="text" className="form-control" id="event-input" 
                     placeholder="这是标题..." value={title} onChange={handleName} required />
                 </div>
 
-                {/* <div className="col-3 align-self-end form-check form-switch">
+                <div className="col-3 align-self-end form-check form-switch">
                     <input className="form-check-input" type='checkbox' role='switch' id='info-input' onChange={handleUserInfo}></input>
-                    <label className='form-check-label' for='info-input'>匿名</label>
-                </div> */}
+                    <label className='form-check-label' htmlFor='info-input'>匿名</label>
+                </div>
 
                 <div className="col-md-4">
                     <label htmlFor="date-input" className="form-label required-field">日期：</label>
