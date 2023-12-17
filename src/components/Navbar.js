@@ -20,7 +20,7 @@ export default function Navbar(props) {
                     </li> */}
                     <li>
                         <p className = "mt-2 mb-0 navtext">
-                            浪浪山
+                            Galaxea四号机
                         </p>
                         <p className = "mt-0 navtext">
                             Framing Memories
