@@ -18,6 +18,14 @@ export default function Navbar(props) {
                            <p className = "navtext"><span className="nav-label">远方</span></p>
                         </Link>
                     </li> */}
+                    <li>
+                        <p className = "mt-2 mb-0 navtext">
+                            浪浪山
+                        </p>
+                        <p className = "mt-0 navtext">
+                            Framing Memories
+                        </p>
+                    </li>
                     <li className="nav-item">
                         <Link className="nav-link" to="/plan">
                         <p className = "navtext"><span className="nav-label">+</span></p>
