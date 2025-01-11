@@ -13,21 +13,36 @@ export default function Navbar(props) {
                             <img className="app-logo navicon" alt="otter" src="img/otterlarger.png" />
                         </Link>
                     </li>
-                    {/* <li className="nav-item">
-                        <Link className="nav-link" aria-current="page" to="/home">
-                           <p className = "navtext"><span className="nav-label">远方</span></p>
-                        </Link>
-                    </li> */}
+
                     <li>
                         <p className = "mt-2 mb-0 navtext">
-                            Galaxea四号机
+                            Galaxea-4
                         </p>
                         <p className = "mt-0 navtext">
-                            Framing Memories
+                            3Q's Zone
                         </p>
                     </li>
+
                     <li className="nav-item">
-                        <Link className="nav-link" to="/plan">
+                        <Link className="nav-link" aria-current="page" to="/home">
+                           <p className = "navtext"><span className="nav-label">足迹 Moments</span></p>
+                        </Link>
+                    </li>
+
+                    <li className="nav-item">
+                        <Link className="nav-link" aria-current="page" to="/portfolio">
+                           <p className = "navtext"><span className="nav-label">创意 Portfolio</span></p>
+                        </Link>
+                    </li>
+
+                    <li className="nav-item">
+                        <Link className="nav-link" aria-current="page" to="/home">
+                           <p className = "navtext"><span className="nav-label">独白 About</span></p>
+                        </Link>
+                    </li>
+
+                    <li className="nav-item">
+                        <Link className="nav-link" to="/post">
                         <p className = "navtext"><span className="nav-label">+</span></p>
                         </Link>
                     </li>
