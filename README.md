@@ -1,7 +1,7 @@
 # galaxea-4
-- Vince Qian's personal website.
+- Qiqiu Qian's personal website. (https://galaxea-4.web.app/)
 - Contact:
-    - Email: qqian2@uw.edu or galaxeaaa@gmail.com
+    - Email: qq52@cornell.edu or galaxeaaa@gmail.com
 - About Galaxea-2: https://vinceqian.shinyapps.io/galaxea/
     
 

@@ -7,6 +7,7 @@ import Plan from './Plan.js';
 import Footer from './Footer.js';
 import SignInPage from './SigninPage.js';
 import Portfolio from './Portfolio.js';
+import About from './About.js';
 import { getDatabase, onValue, ref } from 'firebase/database';
 
 export default function App(props) {
@@ -67,6 +68,7 @@ export default function App(props) {
             <Routes>
                 <Route path="signin" element={<SignInPage />} />
                 <Route path="portfolio" element={<Portfolio />} />
+                <Route path="about" element={<About />} />
                 <Route index element={<Home currentUser={currentUser} postData={postData} evtBtnCallbk={evtBtnCallbk} />} />
                 <Route path='home' element={<Home currentUser={currentUser} postData={postData} evtBtnCallbk={evtBtnCallbk} />} />
                 <Route element={<ProtectedPage currentUser={currentUser} />}>
