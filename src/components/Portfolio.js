@@ -45,6 +45,8 @@ export default function Portfolio(props) {
                             <h6 className='event-date'>with Danny Yue, Yezhen Chen, Chaowei Xiao</h6>
                             <h4>Overview</h4>
                             <h6 className='event-detail'>This webapp is a place for users to share events. Users can log in to the website, create a card for an event and publish it. All published cards will be displayed on the homepage, and all users can browse these events and save interesting ones to their own list. Besides, users have their own profile, where they can upload personal info and private records that only themselves can see.</h6>
+                            <h4>Code</h4>
+                            <h6 className='event-detail'> <a href="https://github.com/info340-au22/project-group-ba8" target="_blank" rel="noopener noreferrer">View code here</a>.</h6>
                             <h4>Webapp</h4>
                             <h6 className='event-detail'>If the webapp cannot load, <a href="https://event-map-group-ba8.web.app" target="_blank" rel="noopener noreferrer">view it here</a>.</h6>
                             <iframe width="100%" height="1300" frameborder="0" src="https://event-map-group-ba8.web.app" title='eventsshare'></iframe>
